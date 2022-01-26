@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #171616 !important;
+    color: white !important;
+    font-family: 'Roboto',sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
+}
+#navs{
+    background-color: #171616 !important;
+    box-shadow: 0px 8px 10px rgb(10, 10, 10);
+}
+#nav_admin{
+    font-size: 1rem;
+}
+
+/* admin_index */
+
+.main_index{
+    width: 85%;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub_index{
+
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(100 92 92 / 0%);
+    -webkit-box-shadow: 2px 1px 25px 10px rgb(10 10 10);
+    -moz-box-shadow: 2px 1px 25px 10px rgb(10 10 10);
+    box-shadow: 2px 1px 25px 10px rgb(10 10 10);
+    border-radius: 8px;
+    text-align: center;
+    margin: 1rem;
+    justify-content: center;
+    
+}
+
+h5{
+    font-size: 1rem !important;
+}
+
+#one{
+    color: blueviolet;
+    font-size: 4rem;
+}
+
+#two{
+    color: rgb(48, 147, 228);
+    font-size: 4rem;
+}
+
+#three{
+    color: rgb(238, 128, 3);
+    font-size: 4rem;
+}
+
+#four{
+    color: rgb(11, 224, 11);
+    font-size: 4rem;
+}
+
+#five{
+    color: rgb(236, 12, 12);
+    font-size: 4rem;
+}
+
+#six{
+    color: rgb(9, 238, 188);
+    font-size: 4rem;
+}
+
+#seven{
+    color: rgb(243, 18, 168);
+    font-size: 4rem;
+}
+#eight{
+    color: rgb(240, 217, 9);
+    font-size: 4rem;
+}
+/* room_status_start */
+
+.room_main_div{
+    width: 95%;
+    margin: 3rem auto;
+    overflow: auto;
+}
+
+.room_status_main{
+    width: 40%;
+    margin: 3rem auto;
+}
+.room_status_button{
+    text-align: center;
+}
+
+.Clean , .Vacant{
+    padding: .3 rem;
+    border-radius: 12px;
+    background-color: chartreuse;
+    text-align: center;
+    color: black;
+
+}
+.Dirty , .Occupied{
+    padding: .3 rem;
+    border-radius: 12px;
+    background-color: red ;
+    text-align: center;
+}
+
+.Active{
+    color: greenyellow;
+}
+.Out-Of-Service,.Out-Of-Order , .Out-Of-Inventory {
+    color: red;
+}
+
+/* room_status_end */
+
+/* room_manage_start */
+
+.room_view_main_div{
+    width: 90%;
+    margin: auto;
+    overflow:auto;
+}
+
+.input_value_div{
+    width: 60%; 
+    text-align:center; 
+    margin: 5rem auto;
+}
+
+.main_add_div{
+    display:flex; 
+    flex-direction:row;
+    margin-top:2rem;  
+}
+
+.sub_add_div{
+    margin-right: 2rem;
+
+}
+
+.manage_room_main{
+
+    display:flex;
+    flex-direction:row; 
+    margin:3rem auto;
+    width: 80%;
+}
+
+.table_heading{
+    width: 100%;
+    background-color: #1c1f22;
+    color: white;
+    text-align: center;
+    padding: .6rem;
+    
+}
+
+/* room_manage_end */
+
+/* housekeepr_manage_start */
+
+.housekeeper_main_div{
+    width: 90%;
+    margin: 2rem auto;
+    overflow: auto;
+
+}
+
+.Available{
+    padding: .2rem;
+    background-color: green;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* housekeepr_manage_end */
+
+/* staff_type_start */
+
+.staff_type_main_div{
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.sub_staff_type_div{
+    margin-bottom: 2rem;
+}
+
+/* staff_type_end */
+
+/* staff_start */
+
+.staff_main_div{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.sub_staff_div{
+    margin-bottom: 2rem;
+}
+
+.staff_div{
+
+    width: 40%; 
+    text-align:center; 
+    margin: 3rem auto;
+}
+
+.input_button{
+    margin-top: 2rem;
+}
+
+
+
+/* staff_end */
+
+.submit_activity{
+    width: 90%;
+    margin: 2rem auto;
+}
+.In_Process{
+      padding: .3 rem;
+      border-radius: 12px;
+      background-color: rgb(202, 121, 16);
+      text-align: center;
+}
+
+.Solved{
+    padding: .3 rem;
+    border-radius: 12px;
+    background-color: rgb(61, 218, 14);
+    text-align: center;
+}
+
+/* room_service */
+.room_service{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.order_list{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 50%;
+}
+
+.input_room_service{
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.Under-Cooking{
+    padding: .4rem;
+      border-radius: 12px;
+      background-color: rgb(206, 84, 13);
+      text-align: center;
+}
+
+/* room_service  end*/
